@@ -1,0 +1,15 @@
+.grid > article {
+  box-shadow: 2px 1px 1px rgba(1, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+.grid > article:hover {
+  transform: scale(1.1);
+}
+.grid > article img {
+  border-radius: 10px;
+}
