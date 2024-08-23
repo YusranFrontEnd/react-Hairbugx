@@ -2,7 +2,7 @@ html,
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: whitesmoke;
-  height: 100vh;
+
   margin: 0;
 }
 
@@ -30,9 +30,11 @@ ul li a:hover {
 
 .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 45%;
+
   gap: 10px;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .content img {
@@ -40,6 +42,7 @@ ul li a:hover {
   padding: 10px;
   border-radius: 260px;
   margin-left: 90px;
+  margin-top: 20px;
 }
 
 .text {
@@ -66,12 +69,12 @@ h2 {
 }
 
 footer {
-  margin-top: 80px;
   background-color: black;
-  height: 12vh;
-  width: 210%;
-  text-align: center;
+  width: 200%;
   color: rgb(245, 15, 15);
+  height: max-content;
+  margin-top: auto;
+  text-align: justify;
 }
 i {
   color: rgb(245, 15, 15);
@@ -80,8 +83,5 @@ i {
 @media (max-width: 700px) {
   .content {
     grid-template-columns: 1fr;
-  }
-  footer {
-    max-width: 500px;
   }
 }

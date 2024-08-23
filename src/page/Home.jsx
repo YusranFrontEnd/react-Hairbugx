@@ -36,12 +36,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
-        <footer>
-          <p>Jl.Barombong, Pangkep</p>
-          <p> Jl.Maccini Raya, Makassar</p>
-        </footer>
-      </div>
+      <footer>
+        <p>Jl.Barombong, Pangkep</p>
+        <p> Jl.Maccini Raya, Makassar</p>
+      </footer>
     </div>
   );
 };
