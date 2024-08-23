@@ -9,7 +9,7 @@ const Service = () => {
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit,minmax(200px,1fr))",
           margin: "100px",
-          paddingBottom: "auto",
+
           alignItems: "center",
           gap: "30px",
         }}
@@ -19,13 +19,15 @@ const Service = () => {
           <img src="images1.jpeg" alt="/public" />
           <div className="con">
             <h2>Haircut</h2>
+            <p>35.000</p>
           </div>
         </article>
 
         <article>
           <img src="images1.jpeg" alt="/public" />
           <div className="con">
-            <h2>Haircut & Shampooing(Keramas)</h2>
+            <h2>Haircut & Shampooing</h2>
+            <p>40.000</p>
           </div>
         </article>
 
@@ -33,6 +35,7 @@ const Service = () => {
           <img src="images1.jpeg" alt="/public" />
           <div className="con">
             <h2>Hair Style & Coloring</h2>
+            <p>100.000</p>
           </div>
         </article>
 
@@ -40,6 +43,7 @@ const Service = () => {
           <img src="images1.jpeg" alt="/public" />
           <div className="con">
             <h2>Home Service</h2>
+            <p>50.000</p>
           </div>
         </article>
       </main>

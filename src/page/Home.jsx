@@ -7,7 +7,7 @@ const Home = () => {
       <img src="images.jpeg" alt="" loading="lazy" />
 
       <div className="text">
-        <h2>Hairbugx</h2>
+        <h2>HairBugx</h2>
         <p>
           Ini adalah barbershop, bukan salon rambut. Kamu datang ke sini tidak
           mencoba untuk mengesankan siapa pun. Ini adalah tempat hanya untuk
@@ -35,10 +35,13 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <footer>
-        <p>Jl.Barombong, Pangkep</p>
-        <p> Jl.Maccini Raya, Makassar</p>
-      </footer>
+
+      <div>
+        <footer>
+          <p>Jl.Barombong, Pangkep</p>
+          <p> Jl.Maccini Raya, Makassar</p>
+        </footer>
+      </div>
     </div>
   );
 };
