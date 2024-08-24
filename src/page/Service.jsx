@@ -24,7 +24,7 @@ const Service = () => {
         </article>
 
         <article>
-          <img src="images1.jpeg" alt="/public" />
+          <img src="pike1.jpeg" alt="/public" />
           <div className="con">
             <h2>Haircut & Shampooing</h2>
             <p>40.000</p>
@@ -32,7 +32,7 @@ const Service = () => {
         </article>
 
         <article>
-          <img src="images1.jpeg" alt="/public" />
+          <img src="pike2.jpeg" alt="/public" />
           <div className="con">
             <h2>Hair Style & Coloring</h2>
             <p>100.000</p>

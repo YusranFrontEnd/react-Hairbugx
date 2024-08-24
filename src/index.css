@@ -1,7 +1,7 @@
 html,
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: whitesmoke;
+  background-color: white;
 
   margin: 0;
 }
@@ -23,7 +23,7 @@ ul li a {
   margin: 20px;
 }
 
-ul li a:hover {
+ul :hover {
   font-weight: bolder;
   font-size: large;
 }
@@ -60,10 +60,10 @@ h2 {
 .social {
   display: flex;
   justify-content: center;
+  border-radius: 10px;
 }
 .social a :hover {
-  background-color: black;
-  padding: 2px;
+  transform: matrix(1, 0.5, 0.2, 1, 0, 0);
   border-radius: 10px;
 }
 

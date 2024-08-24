@@ -3,7 +3,10 @@
   border-radius: 10px;
   text-align: center;
 }
-
+article p {
+  font-style: oblique;
+  font-weight: bold;
+}
 img {
   width: 200px;
 }

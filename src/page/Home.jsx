@@ -19,17 +19,17 @@ const Home = () => {
           <ul>
             <li>
               <a href="##" target="_blank" rel="noopener noreferrer">
-                <FaFacebook size={35} color="#4267B2" />
+                <FaFacebook size={38} color="#4267B2" />
               </a>
               <a
                 href="https://www.instagram.com/HairBugx"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram size={35} color="#FFC0CB" />
+                <FaInstagram size={38} color="#FFC0CB" />
               </a>
               <a href="##" target="_blank" rel="noopener noreferrer">
-                <FaWhatsapp size={35} color="#98FB98" />
+                <FaWhatsapp size={38} color="#98FB98" />
               </a>
             </li>
           </ul>
@@ -39,7 +39,7 @@ const Home = () => {
       <footer>
         <p>Jl.Barombong, Pangkep</p>
         <p> Jl.Maccini Raya, Makassar</p>
-        cop
+        <p>© 2023 HairBugx. All Rights Reserved</p>
       </footer>
     </div>
   );
