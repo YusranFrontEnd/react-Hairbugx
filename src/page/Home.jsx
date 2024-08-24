@@ -39,6 +39,7 @@ const Home = () => {
       <footer>
         <p>Jl.Barombong, Pangkep</p>
         <p> Jl.Maccini Raya, Makassar</p>
+        cop
       </footer>
     </div>
   );

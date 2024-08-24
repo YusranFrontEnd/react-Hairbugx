@@ -1,13 +1,22 @@
 // Navbar.js
-import React from "react";
+
 import { Link } from "react-router-dom";
+import "./Navbar.css";
+import React, { useState } from "react";
 
 const Navbar = () => {
-  return (
-    <header>
-      <h1 className="logo">HairBugx</h1>
+  const [isOpen, setIsOpen] = useState(false);
 
-      <ul>
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <nav className="navbar">
+      <h1 className="logo">HairBugx</h1>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
+      <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -18,7 +27,7 @@ const Navbar = () => {
           <Link to="/service">Service</Link>
         </li>
       </ul>
-    </header>
+    </nav>
   );
 };
 
