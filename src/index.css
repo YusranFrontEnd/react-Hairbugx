@@ -47,7 +47,7 @@ ul :hover {
 
 .text {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 40px;
   line-height: 2rem;
   font-style: italic;
 }
@@ -55,7 +55,7 @@ h2 {
   color: rgb(245, 15, 15);
 }
 .logo {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .social {
   display: flex;
@@ -68,12 +68,14 @@ h2 {
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(36, 32, 32);
   width: 200%;
-  color: rgb(245, 15, 15);
+  color: white;
   height: max-content;
   margin-top: auto;
   text-align: justify;
+  font-size: small;
+  line-height: 0.2;
 }
 i {
   color: rgb(245, 15, 15);

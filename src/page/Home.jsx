@@ -37,7 +37,7 @@ const Home = () => {
       </div>
 
       <footer>
-        <p>Jl.Barombong, Pangkep</p>
+        <p>Jl.Balombong, Pangkep</p>
         <p> Jl.Maccini Raya, Makassar</p>
         <p>© 2023 HairBugx. All Rights Reserved</p>
       </footer>
