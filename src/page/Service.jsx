@@ -96,7 +96,7 @@ const Service = () => {
                   </p>
 
                   <a
-                    href="https://wa.me/082285255550?text=Halo%20HairBugx,%20saya%20ingin%20booking%20layanan"
+                    href="https://wa.me/0882020131189?text=Halo%20HairBugx,%20saya%20ingin%20booking%20layanan"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 block w-full rounded-xl bg-gray-900 px-5 py-3 text-center font-medium text-white transition hover:bg-black focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-gray-300"
