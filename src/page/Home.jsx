@@ -23,12 +23,12 @@ const Home = () => {
 
         <meta
           property="og:image"
-          content="https://domainkamu.com/images/hairbugx-cover.jpg"
+          content="https://web-hairbugx.vercel.app/images/hairbugx-cover.jpg"
         />
 
         <meta property="og:type" content="website" />
 
-        <meta property="og:url" content="https://domainkamu.com" />
+        <meta property="og:url" content="https://web-hairbugx.vercel.app" />
       </Helmet>
 
       {/* Skip link untuk pengguna keyboard */}
@@ -68,12 +68,12 @@ const Home = () => {
             </header>
 
             <div className="flex flex-wrap gap-4">
-              <a
-                href="/service"
-                className="rounded-xl bg-gray-900 px-7 py-3 font-semibold text-white transition hover:bg-black focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-gray-300"
+              <Link
+                to="/service"
+                className="rounded-xl bg-gray-900 px-7 py-3 font-semibold text-white transition hover:bg-black"
               >
                 Lihat Layanan
-              </a>
+              </Link>
 
               <a
                 href="#location"
