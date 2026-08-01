@@ -1,5 +1,6 @@
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
